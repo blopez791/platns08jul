@@ -1,0 +1,21 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Species__c",
+                "referenceId": "Species__cRef1"
+            },
+            "Description__c": "Conocida por sus propiedad medicinales y propiedades para la piel",
+            "Ideal_Max_Temperature__c": 25,
+            "Image_URL__c": "https://hips.hearstapps.com/hmg-prod/images/aloe-vera-plant-outside-jpg-1522875135.jpg",
+            "Image__c": "<img src=\"https://hips.hearstapps.com/hmg-prod/images/aloe-vera-plant-outside-jpg-1522875135.jpg\" alt=\"Aloe Vera\" border=\"0\"/>",
+            "IsDeleted": false,
+            "LastReferencedDate": "2023-07-20T03:13:38.000+0000",
+            "LastViewedDate": "2023-07-20T03:13:38.000+0000",
+            "Location__c": "Outdoors",
+            "Name": "Aloe Vera",
+            "Pulverization__c": false,
+            "Type__c": "Edible"
+        }
+    ]
+}

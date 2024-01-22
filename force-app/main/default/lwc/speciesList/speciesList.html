@@ -1,0 +1,19 @@
+<!-- helloForEach.html -->
+<template>
+   <div class="slds-align_absolute-center">
+      <lightning-input type="text" label="Enter some text" onchange={handlerInputChange}></lightning-input>
+   </div>
+   <div class="container slds-var-p-around_medium">
+      <div class="slds-align_absolute-center">
+         <div class="slds-grid slds-wrap slds-align_absolute-center">
+            <template if:true={species.data}>
+               <template for:each={species.data} for:item="spec">
+                  <div key={spec.Id}>
+                     <c-species-tile specie={spec} class="slds-col slds-var-m-around_small"></c-species-tile>
+                  </div>
+               </template>
+            </template>
+         </div>
+      </div>
+   </div>
+</template>
